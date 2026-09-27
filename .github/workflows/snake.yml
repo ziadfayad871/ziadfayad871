@@ -1,0 +1,33 @@
+name: Generate snake animation
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: Platane/snk/v3/svg-only@v3
+        with:
+          github_user_name: ziadfayad871
+          outputs: |
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-light.svg?palette=github
+            dist/github-snake-contribution-grid.svg?palette=github-dark
+
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          force_orphan: true
