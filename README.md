@@ -61,8 +61,14 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ziadfayad871&show_icons=true&hide_border=true&bg_color=050A14&title_color=F5B942&icon_color=F5B942&text_color=8B9BB4&ring_color=F5B942&include_all_commits=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ziadfayad871&layout=compact&hide_border=true&bg_color=050A14&title_color=F5B942&text_color=8B9BB4&langs_count=6" alt="Top languages" />
+  <a href="https://github.com/ziadfayad871?tab=followers">
+    <img src="https://img.shields.io/github/followers/ziadfayad871?style=flat&label=Followers&labelColor=050A14&color=F5B942&cacheSeconds=3600" alt="Followers" />
+  </a>
+  <a href="https://github.com/ziadfayad871?tab=repositories">
+    <img src="https://img.shields.io/github/repos/ziadfayad871?style=flat&label=Repositories&labelColor=050A14&color=F5B942&cacheSeconds=3600" alt="Repositories" />
+  </a>
+  <img src="https://img.shields.io/github/languages/top/ziadfayad871?style=flat&label=Top%20Language&labelColor=050A14&color=F5B942&cacheSeconds=3600" alt="Top language" />
+  <img src="https://img.shields.io/badge/.NET-10.0-512BD4?style=flat&labelColor=050A14" alt=".NET 10" />
 </p>
 
 <p align="center">
